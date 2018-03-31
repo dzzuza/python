@@ -1,0 +1,25 @@
+#for i in range(0,3000):
+#	suma=suma+1/3
+#	i=i+1
+
+x=float(input('Podaj x:'))
+y=float(input('Podaj y:'))
+if (x>0):
+    if (y>0):
+        print("pierwsza")
+    elif(y==0):
+        print("oś x")
+    else:
+        print("czwarta")
+elif(x==0):
+    if(y==0):
+        print("poczatek ukladu")
+    else:
+        print("oś y")
+else:
+    if(y<0):
+        print("trzecia")
+    elif(y==0):
+        print("oś x")
+    else:
+        print("druga")
